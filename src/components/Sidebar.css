@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.sidebar__header > button {
+  color: white;
+}
+
 .sidebar__search {
   display: flex;
   align-items: center;
