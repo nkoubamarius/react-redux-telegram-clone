@@ -36,14 +36,44 @@
   color: rgba(1, 150, 199);
 }
 
-.thread__input {
-  display: flex;
+.thread__messages {
+  flex: 1;
+  overflow: scroll;
 }
 
-.thread__input > input {
+.thread__messages::-webkit-scrollbar {
+  display: none;
+}
+
+.thread__input {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-top: 1px solid rgba(190, 190, 190, 0.1);
+}
+
+.thread__input > form {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.thread__input > form > input {
   border: none;
   width: 98%;
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
-  border-radius: 10px;
+  border-radius: 0;
+  background-color: transparent;
+  color: white;
+  outline-style: none;
+}
+
+.thread__input > form > button {
+  color: white;
+}
+
+.thread__input > form > button:hover {
+  color: rgb(2, 150, 199);
 }
