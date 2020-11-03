@@ -50,7 +50,7 @@ function Thread() {
 
             <div className="thread__header">
                 <div className="thread__header__contents">
-                    <Avatar/>
+                    <Avatar className="photo__content"/>
                     <div className="thread__header__contents__info">
                         <h4>{threadName}</h4>
                         <h5>Last seen ...</h5>

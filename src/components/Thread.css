@@ -23,6 +23,10 @@
   padding: 10px;
 }
 
+.photo__content {
+  margin-right: 10px;
+}
+
 .thread__header__contents__info > h5 {
   font-weight: 500;
   color: grey;
